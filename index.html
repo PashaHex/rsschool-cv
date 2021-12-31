@@ -7,17 +7,97 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Pavel Niakhai</h1>
-    <img src="Pasha.jpg" alt="profile foto" />;
-    <ul>contacts: 
-        <li style="color:red">+375 (29) 305 59 63</li>;
-        <li>3055963@mail.ru</li>;
-    </ul>
-    <ul> <b>Work experience</b>
-        <li>Embassy of the Republic of Korea</li>;
-        <li>Kampari</li>;
-        <li> <i>Dobrada</i></li>
+   <div class="wrapper">
+        <header>
+            <a href="https://rs.school/js/">
+                <img src="./rs_school_js.svg" width="100px" alt="School Logo">
+            </a>
+            
+        </header>
+        <main>
 
-    </ul>   
+            <div class="left-side">
+                <img src="./Pasha.jpg" class="left-side_img" alt="My foto">
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <ul class="left-side_list"> 
+                        <li>
+                           Email
+                           <a href="#">3055963@mail.ru</a>
+                        </li>
+                         <li>
+                            Phone
+                            <a href="#">+375-29-305-59-63</a>
+                       </li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            2004 - 2009
+                            <br>
+                            Belarusian State Pedagogical University
+                            <br>
+                            named after Maxim Tank
+                        </li>
+                    </ul>
+                </section>            
+            </div>
+
+            <div class="right-side">
+                <section class="right-side_title">
+                    <h1>
+                        Pavel <br> 
+                        Niakhai
+                    </h1>
+                </section>
+                <section class="right-side_about-me">
+                    <h2>About me</h2>
+                    <p>
+                        I like to study and learn something new. I like listen to music of different genres.  
+                   
+                    </p>
+                </section>
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>English - B1</li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h2>Code example</h2>
+                    <pre>
+                        function createPhoneNumber(numbers){
+                            return '(' + numbers.join('').substring(0, 3) + ')' + ' ' + numbers.join('').substring(3, 6) + '-' + numbers.join('').substring(6, 10);                            
+                          }
+                    </pre>
+                </section>
+                
+
+            </div>
+
+           
+            
+    
+        </main>
+        <footer>
+            <nav>
+                <ul class="footer_nav">
+                    <li><a href="https://github.com/PashaHex">Link for my GitHub</a></li>
+                    <li>2021</li>
+                    <li>
+                        <a href="https://rs.school/js/">
+                            <img src="./rs_school_js.svg" width="100px" alt="School Logo">
+                        </a>
+                    </li>
+                    <li><a href="https://rs.school/js/">Link for RsSchool</a></li>
+                </ul>
+            </nav>
+            
+       
+        </footer>
+    </div>  
 </body>
 </html>
