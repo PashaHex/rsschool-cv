@@ -1,1 +1,44 @@
-li{color:green;}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+body {
+    background-color: lightyellow;
+}
+header {
+    
+}
+main {
+    
+    display: flex;
+}
+.left-side {
+    width: 20%;
+    background-color: gray;
+    color: honeydew;
+}
+.left-side_img {
+    width: 100%;
+}
+.left-side_list {
+    text-decoration: none;
+    
+}
+.right-side {
+    
+    width: 100%;
+}
+h2 {
+    background-color: lightgray;
+}
+footer {
+    background-color: linen;
+}
+
+
+
+.footer_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
